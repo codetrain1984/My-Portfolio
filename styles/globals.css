@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  /* html {
+    font-family: "Poppins", sans-serif;
+    font-family: "Outfit", sans-serif;
+  } */
   body {
+    @apply bg-slate-100;
   }
   h1,
   h2,
