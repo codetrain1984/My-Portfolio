@@ -5,35 +5,50 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 const Navbar = () => {
   return (
     <div className=" flex items-center bg-[transparent] w-full h-[60px] sm:h-[90px] md:h-[120px]">
-      <h1 className=" px-12 text-[#323377] text-3xl sm:text-6xl">
-        <span className=" text-[#43647c] font-extrabold text-5xl sm:text-8xl">
+      <h1 className=" px-12 text-[#2a2a84] text-3xl sm:text-6xl">
+        <span className=" text-[#eab9ae] font-extrabold text-5xl sm:text-8xl">
           Mo
         </span>
         Rez.
       </h1>
       <div className=" w-full h-full flex items-center justify-end">
         <ul className=" hidden sm:block sm:mr-20 transition duration-500 ease-in">
-          <Link className=" text-white ml-5 hover:border-b " href="/home">
+          <Link
+            className=" text-[#2a2a84] font-[600] text-md ml-5 transition duration-300 ease-in-out hover:text-white"
+            href="/home"
+          >
             Home
           </Link>
-          <Link className=" text-white ml-5 hover:border-b " href="/work">
+          <Link
+            className=" text-[#2a2a84] font-[600] text-md ml-5 transition duration-300 ease-in-out hover:text-white hover:text-xl "
+            href="/work"
+          >
             Work
           </Link>
-          <Link className=" text-white ml-5 hover:border-b " href="/servic">
+          <Link
+            className=" text-[#2a2a84] font-[600] text-md ml-5 transition duration-300 ease-in-out hover:text-white hover:text-xl "
+            href="/servic"
+          >
             Service
           </Link>
-          <Link className=" text-white ml-5 hover:border-b " href="/blog">
+          <Link
+            className=" text-[#2a2a84] font-[600] text-md ml-5 transition duration-300 ease-in-out hover:text-white hover:text-xl "
+            href="/blog"
+          >
             Blog
           </Link>
-          <Link className=" text-white ml-5  hover:underline " href="/contact">
+          <Link
+            className=" text-[#2a2a84] font-[600] text-md ml-5 transition duration-300 ease-in-out hover:text-white hover:text-xl "
+            href="/contact"
+          >
             Contact
           </Link>
         </ul>
         <button
-          className="flex items-center text-sm
+          className="flex items-center text-sm font-bold
           
-          border-2 border-[#323377] sm:border-white px-2 py-1
-         sm:px-4 sm:py-2.5 rounded-full transition duration-500 ease-in-out sm:text-white hover:bg-[#323377] hover:text-white sm:hover:bg-white sm:hover:text-[#323377] mr-10"
+          border-2 border-[#2a2a84] sm:border-white px-2 py-1
+         sm:px-4 sm:py-2.5 rounded-full transition duration-500 ease-in-out sm:text-[#2a2a84] hover:bg-[#2a2a84] hover:text-white sm:hover:bg-white sm:hover:text-[#2a2a84] mr-12"
         >
           Language
           <span className=" sm:text-xl">
