@@ -3,8 +3,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className=" w-full h-screen flex items-center justify-center bg-[url('/Images/blob-haikei(4).svg')] bg-no-repeat">
-      <div className=" w-1/4 mr-16 ">
+    <div className=" w-full h-screen flex flex-col items-center justify-center sm:flex-row sm:items-center sm:justify-center sm:bg-[url('/Images/blob-haikei(4).svg')] sm:bg-no-repeat">
+      <div className=" w-2/3 text-center mt-4 sm:w-1/4 sm:mr-16 ">
         <p className=" uppercase text-[#2a2a84] text-lg font-bold mb-6">
           About me
         </p>
@@ -15,8 +15,14 @@ export default function About() {
           ipsum. Velit saepe harum ullam iure odio minus magnam?
         </p>
       </div>
-
-      <Image src="/Images/code-typing.webp" alt="/" width={500} height={450} />
+      <div className=" w-2/3">
+        <Image
+          src="/Images/code-typing11.png"
+          alt="/"
+          width={500}
+          height={450}
+        />
+      </div>
     </div>
   );
 }

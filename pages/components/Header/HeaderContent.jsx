@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const HeaderContent = () => {
   return (
-    <div className="flex items-center ml-36">
+    <div className="flex flex-col items-center sm:flex-row sm:items-center sm:ml-36 sm:mt-28">
       <div
-        className="flex items-center justify-center w-[220px] sm:w-[330px] h-[220px] sm:h-[330px] mr-11
-       border-4 border-[#554a8e] rounded-full"
+        className="flex items-center justify-center mt-28 w-[140px] sm:w-[330px] h-[140px] sm:h-[330px] sm:mr-11 border-2
+       sm:border-4 border-[#554a8e] rounded-full"
       >
-        <div className=" w-[200px] sm:w-[310px] h-[200px] sm:h-[310px] rounded-full">
+        <div className=" w-[130px] sm:w-[310px] h-[130px] sm:h-[310px] rounded-full">
           <Image
             className=" w-full h-full rounded-full object-cover"
             src="/Images/Moreza.jpg"
@@ -18,7 +18,7 @@ const HeaderContent = () => {
           />
         </div>
       </div>
-      <div className="text-white ml-56">
+      <div className=" mt-14 text-[#554a8e] text-center sm:text-white sm:ml-56">
         <h1 className=" font-roboto">
           This is Mo Reza <br />
           Frontend Developer

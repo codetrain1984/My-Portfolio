@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  /* @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600;800&family=Roboto:wght@300&display=swap"); */
+  /* * {
+    @apply m-0 p-0 box-border;
+  } */
   body {
     @apply bg-slate-100;
     font-family: "Roboto", sans-serif;
