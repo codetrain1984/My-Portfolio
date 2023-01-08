@@ -18,12 +18,12 @@ const HeaderContent = () => {
           />
         </div>
       </div>
-      <div className=" mt-14 text-[#554a8e] text-center sm:text-white sm:ml-56">
-        <h1 className=" font-roboto">
+      <div className=" mt-14 text-[#554a8e] text-center sm:ml-56">
+        <h1 className=" font-roboto sm:text-white">
           This is Mo Reza <br />
           Frontend Developer
         </h1>
-        <h5>React JS</h5>
+        <h5 className=" sm:text-white">React JS</h5>
       </div>
     </div>
   );

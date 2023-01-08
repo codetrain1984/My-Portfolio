@@ -15,8 +15,9 @@
   h3,
   h4,
   h5,
-  h6 {
-    @apply font-bold;
+  h6,
+  p {
+    @apply font-bold text-[#2a2a84];
   }
   h1 {
     @apply text-4xl sm:text-5xl;

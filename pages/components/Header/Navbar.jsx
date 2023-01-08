@@ -4,7 +4,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className=" fixed flex items-center bg-[transparent] w-full h-[60px] sm:h-[90px] md:h-[120px]">
+    <div className=" fixed z-10 flex items-center bg-[transparent] w-full h-[60px] sm:h-[90px] md:h-[120px]">
       <h1 className=" px-6 sm:px-12 text-[#2a2a84] text-3xl sm:text-6xl">
         <span className=" text-[#eab9ae] font-extrabold text-5xl sm:text-8xl">
           Mo
