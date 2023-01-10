@@ -6,35 +6,35 @@ import { SiAdobephotoshop } from "react-icons/si";
 export default function ServiceInfo() {
   return (
     <div
-      className="bg-blue-300 grid w-full h-full
-     sm:flex sm:items-center sm:justify-between"
+      className="w-full h-full grid grid-cols-1 sm:grid-cols-3 mb-20
+     "
     >
-      <div className=" bg-red-500 w-11/12 flex flex-col items-center justify-center sm:w-1/5 mt-20">
-        <span className="text-4xl text-center text-[#2a2a84] mb-16">
+      <div className="w-11/12 flex flex-col items-center justify-center sm:w-3/5 m-auto mt-20">
+        <span className="text-4xl text-center text-[#2a2a84] mb-10">
           <TbQrcode />
         </span>
         <h2 className="mb-10 text-center">Web design</h2>
-        <p className=" text-center">
+        <p className=" text-center px-6">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia maxime
           eius non, ullam asperiores nostrum temporibus est qui!
         </p>
       </div>
-      <div className=" bg-red-500 w-11/12 sm:w-1/5 flex flex-col items-center justify-center m-auto mt-20">
-        <span className="text-4xl text-[#2a2a84] mb-16">
+      <div className="w-11/12 sm:w-3/5 flex flex-col items-center justify-center m-auto mt-20">
+        <span className="text-4xl text-[#2a2a84] mb-10">
           <FiMonitor />
         </span>
         <h2 className="mb-10">Web developing</h2>
-        <p className=" text-center">
+        <p className=" text-center px-6">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia maxime
           eius non, ullam asperiores nostrum temporibus est qui!
         </p>
       </div>
-      <div className=" bg-red-500 w-11/12 sm:w-1/5 flex flex-col items-center justify-center m-auto mt-20">
-        <span className="text-4xl text-[#2a2a84] mb-16">
+      <div className="w-11/12 sm:w-3/5 flex flex-col items-center justify-center m-auto mt-20">
+        <span className="text-4xl text-[#2a2a84] mb-10">
           <SiAdobephotoshop />
         </span>
-        <h2 className="mb-10">Web design</h2>
-        <p className=" text-center">
+        <h2 className="mb-10">Graphic Design</h2>
+        <p className=" text-center px-6">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia maxime
           eius non, ullam asperiores nostrum temporibus est qui!
         </p>

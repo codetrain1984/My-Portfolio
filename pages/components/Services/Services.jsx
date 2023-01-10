@@ -5,15 +5,8 @@ import ServiceInfo from "./ServiceInfo";
 
 export default function Services() {
   return (
-    <div className=" w-full h-screen">
-      {/* <div className="w-full h-full absolute">
-        <img
-          className=" w-full h-full  mix-blend-overlay object-cover"
-          src="/Images/social.png"
-          alt="/"
-        />
-      </div> */}
-      <h1 className=" text-center">Services offers</h1>
+    <div className="w-full sm:h-[50vh] my-20 ">
+      <h1 className=" text-center">My Offered Services</h1>
       <ServiceInfo />
     </div>
   );
